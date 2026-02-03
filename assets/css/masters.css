@@ -1,0 +1,29 @@
+body {
+    background-image: url('/GastroSystem/assets/images/ImageForm.png');
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+    color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #77231F;
+    border-color: #77231F;
+}
+
+.btn-primary:hover {
+    background-color: #5e1b19;
+    border-color: #5e1b19;
+}
+
+h2 {
+    color: #77231F;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,39 @@
+/* alertas.css */
+
+.swal-popup {
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Botón de éxito (verde) */
+.swal-btn-exito {
+    background-color: #28a745 !important;
+    color: white !important;
+    font-weight: bold;
+    border: none;
+}
+
+/* Botón de error (rojo) */
+.swal-btn-error {
+    background-color: #dc3545 !important;
+    color: white !important;
+    font-weight: bold;
+    border: none;
+}
+
+/* Botón de advertencia (amarillo) */
+.swal-btn-advertencia {
+    background-color: #ffc107 !important;
+    color: black !important;
+    font-weight: bold;
+    border: none;
+}
+
+/* Botón cancelar (gris) */
+.swal-btn-cancelar {
+    background-color: #6c757d !important;
+    color: white !important;
+    font-weight: bold;
+    border: none;
+}

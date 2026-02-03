@@ -1,0 +1,123 @@
+/* GLOBAL.CSS - Estilos básicos del layout main.php */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2 {
+    color: #77231F;
+    font-weight: 600;
+}
+
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary {
+    background-color: #77231F;
+    border-color: #77231F;
+}
+
+.btn-primary:hover {
+    background-color: #5e1b19;
+    border-color: #5e1b19;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+.notificacion-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-family: Arial, sans-serif;
+}
+
+.icono-campana {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: relative;
+    font-size: 24px;
+}
+
+.icono-campana .badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    font-size: 12px;
+    padding: 4px 6px;
+    border-radius: 50%;
+    color: white;
+}
+
+.panel-notificaciones {
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.titulo-noti {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.lista-notificaciones {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-notificaciones li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.lista-notificaciones li:last-child {
+    border-bottom: none;
+}
+
+.d-none {
+    display: none;
+}

@@ -1,0 +1,148 @@
+    .navbar {
+        background: linear-gradient(to right, #77231F, #b73b35);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar .navbar-brand,
+    .navbar .nav-link,
+    .navbar .dropdown-menu a {
+        color: white !important;
+        font-weight: 500;
+    }
+
+    .navbar .navbar-brand span {
+        font-size: 1.3rem;
+        margin-left: 5px;
+    }
+
+    .navbar .nav-link {
+        margin-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        background-color: #77231F;
+        border: none;
+        border-radius: 8px;
+        margin-top: 0.3rem;
+    }
+
+    .navbar .dropdown-menu .dropdown-item {
+        color: white !important;
+        font-size: 0.95rem;
+        padding: 8px 15px;
+        transition: background 0.3s;
+    }
+
+    .navbar .dropdown-menu .dropdown-item:hover {
+        background-color: #b73b35;
+    }
+
+    .navbar .nav-link.dropdown-toggle::after {
+        display: none;
+    }
+
+    .navbar .perfil-icono {
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid white;
+        transition: transform 0.2s ease;
+    }
+
+    .navbar .perfil-icono:hover {
+        transform: scale(1.05);
+    }
+
+    .navbar .bi-arrow-left-circle,
+    .navbar .bi-arrow-right-circle {
+        transition: transform 0.2s ease;
+    }
+
+    .navbar .bi-arrow-left-circle:hover,
+    .navbar .bi-arrow-right-circle:hover {
+        transform: scale(1.15);
+    }
+
+    /* 🔔 Icono de campana */
+    #iconoCampana {
+        font-size: 1.4em;
+        cursor: pointer;
+        position: relative;
+    }
+
+    #contadorNoti {
+        position: absolute;
+        top: -6px;
+        right: -10px;
+        font-size: 0.75em;
+        padding: 2px 6px;
+        border-radius: 50%;
+        background-color: #dc3545;
+        color: white;
+        display: none;
+    }
+
+    #panelNotificaciones {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 320px;
+        max-height: 400px;
+        overflow-y: auto;
+        background-color: white;
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        z-index: 1050;
+    }
+
+    #panelNotificaciones li {
+        padding: 10px 15px;
+        border-bottom: 1px solid #f1f1f1;
+        font-size: 0.95em;
+        cursor: default;
+    }
+
+    #panelNotificaciones li:last-child {
+        border-bottom: none;
+    }
+
+    #panelNotificaciones li:hover {
+        background-color: #f8f9fa;
+    }
+
+    #notificacionFlotante {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        z-index: 9999;
+        background-color: rgba(220, 53, 69, 0.85);
+        color: #fff;
+        padding: 16px 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        display: none;
+    }
+
+    #notificacionFlotante:hover {
+        background-color: rgba(220, 53, 69, 1);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    @media (max-width: 576px) {
+        #panelNotificaciones {
+            width: 95vw;
+            right: 2.5vw;
+        }
+
+        #notificacionFlotante {
+            left: 10px;
+            right: 10px;
+            width: auto;
+        }
+    }
