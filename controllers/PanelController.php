@@ -34,7 +34,7 @@ class PanelController
             exit;
         }
 
-        $titulo = 'Panel de inicio | GastroSystem';
+        $titulo = 'Panel de inicio | FastFoodSystem';
         require 'views/panel/dashboard.php';
     }
 }

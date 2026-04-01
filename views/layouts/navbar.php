@@ -136,7 +136,7 @@
                 <!-- Imagen de perfil -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" data-bs-toggle="dropdown">
-                        <img src="/GastroSystem/assets/images/Perfil.png" alt="Perfil" class="perfil-icono">
+                        <img src="/FastFoodSystem/assets/images/Perfil.png" alt="Perfil" class="perfil-icono">
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li><a class="dropdown-item" href="index.php?controller=usuario&action=administrarCuenta">Administrar tu cuenta de FastFoodSystem</a></li>

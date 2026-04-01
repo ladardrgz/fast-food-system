@@ -326,8 +326,6 @@ class UsuarioController
             ]);
             return;
         }
-
-        // ✅ Guardar nueva contraseña hasheada
         $hash = password_hash($nueva, PASSWORD_DEFAULT);
         $modelo->actualizarClaveUsuario($idUsuario, $hash);
 

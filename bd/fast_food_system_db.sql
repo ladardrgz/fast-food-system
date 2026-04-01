@@ -612,7 +612,7 @@ VALUES ('40987501', 1);
 
 -- Contacto
 INSERT INTO detalles_contactos (valor_contacto, rela_tipo_contacto)
-VALUES ('gastrosystem@gmail.com', 1);
+VALUES ('alejandrogonzalez390@gmail.com', 1);
 
 -- Persona
 INSERT INTO personas (nombre_persona, apellido_persona, fecha_nacimiento_persona, rela_genero, rela_direccion, rela_documento, rela_contacto)
@@ -620,7 +620,7 @@ VALUES ('Alejandro', 'Gonzaléz', '1980-05-01', 1, 1, 1, 1);
 
 -- Usuario
 INSERT INTO usuarios (nombre_usuario, password_usuario, rela_persona, rela_perfil)
-VALUES ('administrador', '$2y$10$BLTqQRJ2j/.pSjMeMUSp5evPjnOrPRyHdbia1RQycMo66E5URmeGK', 1, 1);
+VALUES ('administrador', '$2y$10$W2uaF5B7dmPBK4uz1vZlY.Ay6S1Z8a6e0XVQx.MaOb32O7zUel.GS', 1, 1); -- Contraseña: administrador123
 
 -- =========================================
 -- Insertar un encargado (Perfil 2)
@@ -636,7 +636,7 @@ VALUES ('38765421', 1);
 
 -- Contacto
 INSERT INTO detalles_contactos (valor_contacto, rela_tipo_contacto)
-VALUES ('encargado@gmail.com', 1);
+VALUES ('lfernandez23@gmail.com', 1);
 
 -- Persona
 INSERT INTO personas (nombre_persona, apellido_persona, fecha_nacimiento_persona, rela_genero, rela_direccion, rela_documento, rela_contacto)
@@ -644,7 +644,7 @@ VALUES ('Laura', 'Fernández', '1985-11-15', 2, 2, 2, 2);
 
 -- Usuario
 INSERT INTO usuarios (nombre_usuario, password_usuario, rela_persona, rela_perfil)
-VALUES ('encargado', '$2y$10$GWQIEa66OCBScoQWppkoZ.5iRr/BUpw35xnNWlyoeQiwXAManP2kW', 2, 2);
+VALUES ('encargado', '$2y$10$vH9JDtFkynphapBy4LOuLuq3XaORIywdRRLIvqfaA/Zz/DKIWPMda', 2, 2); -- Contraseña: encargado123
 
 -- =========================================
 -- Insertar un cliente (Perfil 5)
@@ -672,7 +672,7 @@ VALUES (3);
 
 -- Usuario
 INSERT INTO usuarios (nombre_usuario, password_usuario, rela_persona, rela_perfil)
-VALUES ('cliente', '$2y$10$PnOK0L34c73PRTWkFQ4VjuKVxiGMhpxFzw6wPnJxdH1mJjuwfH3by', 3, 5);
+VALUES ('cliente', '$2y$10$HxymQIDcehc0CAHjsw7tDu06SFWfKPL5/OE8PZNyHYVPtHNXfap7G', 3, 5); -- Contraseña: cliente123
 
 -- =========================================
 -- Insertar un empleado (Perfil 3)
@@ -700,7 +700,7 @@ VALUES (3, '2024-05-01');
 
 -- Usuario
 INSERT INTO usuarios (nombre_usuario, password_usuario, rela_persona, rela_perfil)
-VALUES ('empleado', '$2y$10$zPjP1kywOEFShbG1fa4JJeAw8mwWxJjrGvdMgVDm4AAdzsceFpD/G', 3, 3);
+VALUES ('empleado', '$2y$10$KN548zYXIo20rvcXNnyVHuqG1aJ2VSgYW0RWSlgCirPfmI/1LmbkK', 3, 3); -- Contraseña: empleado123
 
 -- =========================================
 -- Insertar un repartidor (Perfil 4)
@@ -724,4 +724,4 @@ VALUES ('Diego', 'Ramírez', '1992-08-10', 1, 5, 5, 5);
 
 -- Usuario
 INSERT INTO usuarios (nombre_usuario, password_usuario, rela_persona, rela_perfil)
-VALUES ('repartidor', '$2y$10$mq5p/RAzpiB9sfR8gg142O9tvw/FCOkd5G0Wsu2YQDbsshj0Q1abC', 4, 4);
+VALUES ('repartidor', '$2y$10$lS7SfdEEroysNAuS14IGR.QOUOcVNb8qMI.Gt9vpzOmM3xuWinnGW', 4, 4); -- Contraseña: repartidor123
