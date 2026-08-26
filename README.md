@@ -3,6 +3,54 @@
 FastFoodSystem
 Sales and Inventory Management System for Gastronomic Businesses
 
+## Screenshots
+
+### Home
+
+![Home - Part 1](screenshots/Home_P1.png)
+
+![Home - Part 2](screenshots/Home_P2.png)
+
+### Login
+
+![Login](screenshots/Login.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](screenshots/Dashboard_Admin.png)
+
+### Manager Dashboard
+
+![Manager Dashboard](screenshots/Dashboard_Encargado.png)
+
+### Employee Dashboard
+
+![Employee Dashboard](screenshots/Dashboard_Empleado.png)
+
+### Customer Dashboard
+
+![Customer Dashboard](screenshots/Dashboard_Cliente.png)
+
+### Delivery Driver Dashboard
+
+![Delivery Driver Dashboard](screenshots/Dashboard_Repartidor.png)
+
+### Master Tables Management
+
+![Master Tables Management](screenshots/CRUD_Master_Tables.png)
+
+### Menu
+
+![Menu](screenshots/Carta.png)
+
+### User Registration
+
+![User Registration](screenshots/Registro.png)
+
+### Password Recovery
+
+![Password Recovery](screenshots/Recuperar%20contrase%C3%B1a.png)
+
 # Technical overview #
 
 FastFoodSystem is a web-based system designed for gastronomic businesses, focused on sales management, inventory control, and user administration.
